@@ -112,7 +112,6 @@ static void goertzel_sse(size_t nf, const float *f, float sr,
 {
 	int i;
 	float coeff[4];
-	float t1[4], t2[4];
 
 	for (i = 0; i < nf; i += 4) {
 		register int j;
